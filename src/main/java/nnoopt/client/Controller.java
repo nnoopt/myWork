@@ -21,6 +21,7 @@ import java.util.stream.Collectors;
 
 public class Controller implements Initializable {
 
+
     private Path clientDir;
     public TextField input;
     public ListView <String> listView;
