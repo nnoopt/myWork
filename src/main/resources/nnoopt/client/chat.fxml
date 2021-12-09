@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox prefHeight="483.0" prefWidth="264.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="nnoopt.client.Controller">
+  <AnchorPane prefHeight="409.0" prefWidth="249.0" VBox.vgrow="ALWAYS">
+    <ListView fx:id="listView" layoutY="31.0" prefHeight="337.0" prefWidth="264.0" />
+    <TextField fx:id="input" layoutY="368.0" onAction="#sendMsg" prefHeight="39.0" prefWidth="264.0" />
+      <Button fx:id="buttonUp" onAction="#upload" layoutY="407.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="264.0" text="Upload" />
+      <Button fx:id="buttonDo" onAction="#download" layoutY="434.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="264.0" text="Download" />
+      <Label layoutX="104.0" layoutY="6.0" prefHeight="17.0" prefWidth="41.0" text="Cloud" textAlignment="RIGHT" />
+  </AnchorPane>
+</VBox>
